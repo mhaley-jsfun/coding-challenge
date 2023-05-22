@@ -76,7 +76,7 @@ function App() {
 
 				<div id='iconList'>
 					<img src={require('./assets/diff.jpg')} alt='' />
-					<IconList urls={urls} files={file} />{' '}
+					<IconList urls={urls} files={files} />{' '}
 				</div>
 			</div>
 		</div>

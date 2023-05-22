@@ -130,7 +130,6 @@ export const IconList = (props: IconListProps) => {
 						<div className='col'>
 							{regularIcon ? (
 								<Icon element={regularIcon} altText='' />
-								<div></div>
 							) : (
 								<div className='line'></div>
 							)}
