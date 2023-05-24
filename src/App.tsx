@@ -5,7 +5,7 @@ import { Camera20Filled } from '@fluentui/react-icons';
 
 function App() {
 	let [files, setFiles] = React.useState<Array<Object>>([]);
-	let [urls, setUrls] = React.useState([]);
+	let [urls, setUrls] = React.useState<Array<Object>>([]);
 
 	let __addDirectory = (node: any) => {};
 
